@@ -2,7 +2,7 @@
 
 Modern Arabic fashion storefront with interactive product discovery, cart behavior, and responsive shopping flows.
 
-## Live Demo
+## Live Site
 
 - Live: https://fleepatef42-sudo.github.io/fashion-store-Noor-Atelie/
 - Source: https://github.com/fleepatef42-sudo/fashion-store-Noor-Atelie
@@ -27,4 +27,4 @@ Modern Arabic fashion storefront with interactive product discovery, cart behavi
 
 ## Project Note
 
-This is a client-side e-commerce UI demo. Cart and preferences are stored locally in the browser.
+Cart and preferences are stored locally in the browser for the portfolio version.

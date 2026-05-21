@@ -1492,3 +1492,32 @@ body.theme-dark .cart-drawer {
         bottom: 12px;
     }
 }
+
+@media (max-width: 480px) {
+    .main-content,
+    .section-shell,
+    .site-header {
+        width: 100%;
+    }
+
+    .hero-actions,
+    .toolbar-actions,
+    .newsletter-form,
+    .cart-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn,
+    .hero-actions .btn,
+    .newsletter-form .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .product-card,
+    .collection-card,
+    .benefit-card {
+        min-width: 0;
+    }
+}
