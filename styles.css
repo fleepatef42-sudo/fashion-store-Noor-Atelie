@@ -1521,3 +1521,29 @@ body.theme-dark .cart-drawer {
         min-width: 0;
     }
 }
+
+@media (min-width: 1440px) {
+    .section-shell,
+    .site-header__inner,
+    .hero {
+        max-width: 1440px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 520px) {
+    .filter-row,
+    .sort-row,
+    .product-actions {
+        align-items: stretch;
+    }
+
+    .filter-row select,
+    .filter-row input,
+    .sort-row select {
+        width: 100%;
+    }
+}
