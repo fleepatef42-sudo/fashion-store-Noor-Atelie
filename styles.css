@@ -1547,3 +1547,63 @@ body.theme-dark .cart-drawer {
         width: 100%;
     }
 }
+
+/* Compact sticky site header across small, large, and XL screens */
+@media (max-width: 640px) {
+    .site-header {
+        top: 6px;
+        padding: 10px 12px;
+        border-radius: 22px;
+        gap: 10px;
+    }
+
+    .brand__mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .brand__word {
+        font-size: 1.05rem;
+    }
+
+    .icon-button {
+        width: 42px;
+        height: 42px;
+        border-radius: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .site-header {
+        top: 8px;
+        padding: 14px 22px;
+        border-radius: 28px;
+    }
+
+    .brand__mark {
+        width: 42px;
+        height: 42px;
+    }
+
+    .brand__word {
+        font-size: 1.25rem;
+    }
+
+    .site-nav {
+        gap: 18px;
+    }
+
+    .icon-button {
+        width: 46px;
+        height: 46px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .site-header {
+        top: 8px;
+        padding: 14px 24px;
+        border-radius: 30px;
+    }
+}
